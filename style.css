@@ -1,0 +1,101 @@
+*{
+    margin: 0; /*resetar os padding e margin da pagina*/
+    padding: 0;
+}
+
+span{
+    color: #9747FF;
+}
+
+body{
+    background-color: #0E1014; 
+    font-family: "Poppins";
+    font-size: 24px; /* tamanho da fonte*/
+}
+
+h1{
+    font-size: 64px; 
+    color: #FFFFFF;
+    font-family: "Unbounded";
+    font-weight: bold; /* peso da fonte */
+    text-align: center;
+    margin-top: 60px;
+}
+
+p{
+    color: #FFFFFF;
+    line-height: 35px;
+    text-align: center;
+    width: 792px;
+    margin: 24px auto 0;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none; /* tirando a linha do link */
+    background-color: #9747FF;
+    width: 340px; /* largura */
+    height: 66px; /* altura */
+    display: block;
+    border-radius:36px; /* borda arredondada */
+    text-align: center; /* centralizando o texto */
+    line-height: 66px; /* altura da inha dentro da borda */
+    margin: 40px auto;
+}
+
+a:hover {
+    background-color: #8233E8;
+}
+
+img#logo{
+    display: block;
+    margin: 75px 0px 0px 360px;
+   
+}
+
+img#cell{
+    display: block;
+    width: 792px;
+    height: 446px;
+    margin: 0 auto;
+}
+
+/*Navegador se a medida for no maximo 768px que é o tablet, execulta esse css */
+@media(max-width: 768px){
+     
+    img#logo{
+    margin: 65px 498px 72px 60px;  
+}
+
+p{
+    width: 648px;
+}
+}
+
+@media (max-width: 376px ){
+    img#logo{
+        margin: 32px 0 0 16px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    p{
+        width: 341px;
+        font-size: 20px;
+    }
+
+    a{
+         width: 251px;
+         font-size: 20px;
+    }
+
+    img#cell{
+        width: 340px;
+        height: 230px;
+    }
+    
+}
+
+
